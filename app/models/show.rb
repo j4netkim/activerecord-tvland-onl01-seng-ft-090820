@@ -9,7 +9,4 @@ class Show < ActiveRecord::Base
     end
     array
   end
-
-  def genre
-  end
 end
