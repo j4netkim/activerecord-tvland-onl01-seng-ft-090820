@@ -12,6 +12,7 @@ class Actor < ActiveRecord::Base
 
   def list_roles
     array = []
-    
+    array << self.shows.name
+    array << self.characters.name 
   end
 end
