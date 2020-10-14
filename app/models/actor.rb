@@ -9,6 +9,6 @@ class Actor < ActiveRecord::Base
   def list_roles
     array = []
     self.characters.each do |role|
-      
+
   end
 end
