@@ -4,6 +4,8 @@ class Actor < ActiveRecord::Base
 
   def full_name
     array = []
+    array << self.first_name
+    array << self.last_name
     
   end
 end
