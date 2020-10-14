@@ -3,6 +3,9 @@ class Show < ActiveRecord::Base
   belongs_to :network
 
   def actors_list
+    array = []
+    self.characters.each do |t|
+      "#{t.full_name}"
+    end
   end
-
 end
