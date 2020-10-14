@@ -7,5 +7,6 @@ class Actor < ActiveRecord::Base
     array << self.first_name
     array << self.last_name
     name = array.join(" ")
+    name
   end
 end
