@@ -9,4 +9,8 @@ class Actor < ActiveRecord::Base
     name = array.join(" ")
     name
   end
+
+  def list_roles
+    
+  end
 end
